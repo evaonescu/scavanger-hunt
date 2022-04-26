@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stop 1</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Tahome", sans-serif, ;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("pics/blind_walls2.jpeg");
+  min-height: 100%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <h6 class="w3-button w3-block w3-black">Check out the BLEND magazine!</h6>
+    </div>
+	</div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small"> <span class="w3-tag"></span></div>
+  <div class="w3-display-middle w3-center"><span class="w3-text-white" style="font-size:90px"></span> </div>
+<div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white"></span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+	&nbsp;
+	<h1>Welcome to stop no.3 from the anniversary scavenger hunt!</h1>
+	<p> If you stumbled upon this by accident, and you’re interested in the hunt, find stop 1 at the following location: BUas gives you wings - so you can fly to the north of the horizon (and check out the special edition of the BLEND magazine for details about the prize!).  </p>
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE BLIND WALLS GALLERY</span></h5>
+    <p>Blind Walls Gallery is a city mural museum. More than 100 meaningful artworks tell the stories of our city. The project is a homage to the old walls that used to surround the medieval Breda, providing protection and standing as a sign of prestige. Most of the old monuments have disappeared now and the blind walls that remained give the city a dull and grey appearance. Sadly, people often use these places to recklessly park their bicycles or even as a public toilet after a night out. Blind Walls Gallery wants to change that, one mural at a time. Have you spotted these artworks around town? &nbsp;</p>
+	  
+    <p>Especially for the Leisure &amp; Events course at Breda University of Applied Sciences, the art company Hedof created a design that aptly shows several leisure activities, like grooving, cruising or doing something soothing! The murals add colour and an overall high-toned vibe to the two stairwells on the right - and left sides of the building. The artist behind this funky piece is Rick Berkelmans. Check out his work at <a href="https://www.hedof.com/">HEDOF!</a> &nbsp;</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+	  <p>Did you know?</p> <p><i>"Blind Walls Gallery is a homage to the old walls that used to surround the medieval Breda, providing protection and standing as a sign of prestige."</i></p>
+
+    </div>
+<p><strong>Next stop: </strong> All fun and games so far? Follow up with a trip to the 3rd floor of the Frontier Building. </p>
+	  
+	  <br>
+	  <br>
+   
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+   
+
+<!-- End page content -->
+</div>
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</div></div></body> 
+</html>
